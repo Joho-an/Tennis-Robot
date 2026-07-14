@@ -1,5 +1,8 @@
 # Tennis-Robot
----main中主要包含OpenMV视觉相关代码和硬件连接手册，其中Main.py可直接放入OpenMV SD卡后直接执行使用(不包含训练后的轻量化模型)。其余分支分别包含了H750主控.c和.h代码，以及自制手柄代码，host网页可用文件直接放在main中--
+main中主要包含OpenMV视觉相关代码和硬件连接手册，其中Main.py可直接放入OpenMV SD卡后直接执行使用(不包含训练后的轻量化模型)。其余分支分别包含了H750主控.c和.h代码，以及自制手柄代码，host网页可用文件直接放在main中。
+
+
+
 以下是简要的项目介绍：
 FreeRTOS+轻量化视觉的网球收集机器人
 开发环境：VS Code+CMake STM32Cubemx OpenMV IDE Python
